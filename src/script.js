@@ -168,8 +168,10 @@ console.log("\n1° array: " + arrayList01);
 
 console.log("2° array: " + arrayList02);
 
-console.log(`\nArray is: ${typeof(arrayList01)}`);
-
 console.log(`\nSorted list02: ${arrayList02.sort()}`);
 
 console.log(`The size of list01 is ${arrayList01.length}`);
+
+console.log(`Array is: ${typeof(arrayList01)}`);
+
+// OBS.: Arrays are a special kind of objects, with numbered indexes.
