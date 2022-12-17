@@ -157,3 +157,19 @@ console.log(`The negative infinity: ${numNegatInf}`);
 // I dont see reasons for use this number properties ... 👀
 
 // Link to Number Properties: https://www.w3schools.com/js/js_number_properties.asp
+
+const arrayList01 = new Array("Carlos", "21", "1.78", "Software Developer", "Brazilian");
+
+const arrayList02 = ["Carlos", "Software Developer", "Brazilian", "21", "1.78"]; // more common!
+
+// testing auto-save
+
+console.log("\n1° array: " + arrayList01);
+
+console.log("2° array: " + arrayList02);
+
+console.log(`\nArray is: ${typeof(arrayList01)}`);
+
+console.log(`\nSorted list02: ${arrayList02.sort()}`);
+
+console.log(`The size of list01 is ${arrayList01.length}`);
