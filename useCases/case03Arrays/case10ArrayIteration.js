@@ -47,3 +47,27 @@ function reduceFunction(values, total) {
 }
 
 console.log(numsReduce);
+
+// 4.1. reduceRight() -> works from right-to-left in the array.
+// (work to some way that reduce() method)
+
+var arrayNums = [11, 15, 10, 7, 2, 4];
+var numsReduceRight = arrayNums.reduce(reduceRightFunction);
+
+function reduceRightFunction(values, total) {
+    return values + total;
+}
+
+console.log(numsReduceRight);
+
+// 5. every() -> checks if all array values pass a test.
+// (similar to filter() method)
+
+var arrayTest = [10, 20, 30, 60, 90];
+var arrayTestPassed = arrayTest.every(everyFunction);
+
+function everyFunction(value) {
+    return value >= 30;
+}
+
+console.log(arrayTestPassed);
