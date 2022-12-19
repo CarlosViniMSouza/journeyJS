@@ -71,3 +71,42 @@ function everyFunction(value) {
 }
 
 console.log(arrayTestPassed);
+
+// 6. some() -> check if some array values pass a test.
+
+var arrayTest = [10, 20, 30, 60, 90];
+var arrayTestPassed = arrayTest.some(someFunction);
+
+function someFunction(value) {
+    return value >= 10;
+}
+
+console.log(arrayTestPassed);
+
+// 7. indexOf() -> search an array for an element value and returns its position.
+
+var arrayTest = [10, 20, 30, 60, 90];
+var arrayTestPassed = arrayTest.indexOf(20) + 1;
+
+console.log("Position: " + arrayTestPassed + "°");
+
+// 8. lastIndexOf() -> returns the position of the last occurrence of the specified element.
+
+const musicsGenre = ["Pop", "Rock", "Samba", "Pagode", "Lo-Fi", "Eletronic", "Jazz"];
+var positionMusicGenre = musicsGenre.lastIndexOf("Lo-Fi") + 1;
+
+console.log("Position of Lo-Fi: " + positionMusicGenre + "°");
+
+// 9. find() -> returns the value of the first array element that passes a test function.
+// kinda confusing, see example below for simplicity
+
+const numbers = [10, 15, 20, 25, 30];
+const findNum = numbers.find(findFunction);
+
+function findFunction(value) {
+    return value >= 20;
+}
+
+console.log(`First element that passed the test: ${findNum} (${numbers.indexOf(findNum) + 1}° element on array)`);
+
+// Link to more array iteraion methods: https://www.w3schools.com/js/js_array_iteration.asp
