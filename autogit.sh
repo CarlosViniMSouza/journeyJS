@@ -1,5 +1,7 @@
 git init
 git add -A 
-git commit -m "Next Step: JS Array Iteration | folder useCases -> added"
+git commit -m "Next Step: JavaScript Array filter()"
 git push -u origin main
 git status
+
+# link: https://www.w3schools.com/js/js_array_iteration.asp
