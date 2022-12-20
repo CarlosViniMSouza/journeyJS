@@ -35,3 +35,22 @@ function convertNumberInHour() {
 }
 
 convertNumberInHour();
+
+// Question 14
+
+const txt = "javascript";
+
+const initialPositions = 0; // first 'a'
+const finalPositions = 4; // 's' to stop at the second 'a'
+
+console.log(`\nResult split: ${txt.slice(initialPositions, finalPositions)}`);
+
+// Question 15
+
+const energyCost = 0.35;
+const amountEnergyConsumed = 970;
+
+const result = energyCost * amountEnergyConsumed;
+
+console.log(`\nTotal Value: R$ ${Math.round(result)}`);
+console.log(`Total Value (discounted 15%): R$ ${Math.round(result - (result * 0.15))}`);
