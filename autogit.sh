@@ -1,6 +1,6 @@
 git init
 git add -A 
-git commit -m "Exercises -> Question 15 done"
+git commit -m "Exercises -> Question 04 done"
 git push -u origin main
 git status
 
