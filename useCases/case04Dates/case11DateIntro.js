@@ -23,14 +23,44 @@ console.log("\nApplied getFullYear(): " + dateCurrent.getFullYear());
 
 // 2. getMonth() -> returns the month of a date as a number (0-11)
 
-console.log("\nApplied getMonth(): " + dateCurrent.getMonth());
+console.log("Applied getMonth(): " + dateCurrent.getMonth());
 
 // 3. getDate() -> returns the day of a date as a number (1-31)
 
-console.log("\nApplied getDate(): " + dateCurrent.getDate());
+console.log("Applied getDate(): " + dateCurrent.getDate());
 
 // 4. getHours() -> returns the number of hours of a date as a number
 
-console.log("\nApplied getHours(): " + dateCurrent.getHours());
+console.log("Applied getHours(): " + dateCurrent.getHours());
 
 // link to more Get Methods Date: https://www.w3schools.com/js/js_date_methods.asp
+
+// Date Set Methods //
+
+// 1. setFullYear() -> returns the year of a date as a four digit number
+
+var dateSetTest = new Date();
+
+dateSetTest.setFullYear(2021)
+console.log("\nApplied setFullYear(): " + dateSetTest.getFullYear());
+
+// 2. setMonth() -> returns the month of a date as a number (0-11)
+
+dateSetTest.setMonth(10)
+console.log("Applied setMonth(): " + dateSetTest.getMonth());
+
+// 3. setDate() -> returns the day of a date as a number (1-31)
+
+dateSetTest.setDate(20)
+console.log("Applied setDate(): " + dateSetTest.getDate());
+
+// 4. setHours() -> returns the number of hours of a date as a number
+
+dateSetTest.setDate(20)
+console.log("Applied setHours(): " + dateSetTest.getHours());
+
+if (dateCurrent > dateSetTest) {
+    console.log(`\n${dateCurrent} is lagger than ${dateSetTest}`);
+} else {
+    console.log(`\n${dateSetTest} is lagger than ${dateCurrent}`);
+}
