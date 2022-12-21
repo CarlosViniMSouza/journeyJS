@@ -7,3 +7,10 @@ console.log(dateNow);
 
 var dateCurrent = new Date("2022-12-21");
 console.log("\n" + dateCurrent);
+
+// ISO Dates Format
+
+dateCurrent = new Date("2023-04-04T12:00:00Z");
+console.log("\nNew Data: " + dateCurrent);
+
+// OBS.: UTC (Universal Time Coordinated) is the same as GMT (Greenwich Mean Time).
