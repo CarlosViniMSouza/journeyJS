@@ -1,7 +1,6 @@
-git init
 git add -A 
-git commit -m "Next Step: JS Random"
+git commit -m "Next Step: JS For Loop"
 git push -u origin main
 git status
 
-# link: https://www.w3schools.com/js/js_random.asp
+# link: https://www.w3schools.com/js/js_loop_for.asp
