@@ -1,5 +1,5 @@
 git add -A 
-git commit -m "Next Step: JS Bitwise Operations"
+git commit -m "Next Step: JS Scope"
 git push -u origin main
 git status
 
