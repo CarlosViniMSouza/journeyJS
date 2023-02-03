@@ -35,3 +35,17 @@ const person01 = person;
 person01.age = 16;      // Will change both x.age and person.age
 
 console.log(person01.age); // Output: 16
+
+// Objects can contain others objects:
+
+const myObj = {
+    name: "John",
+    username: "Doe",
+    objects: {
+        "notebook": true,
+        "cellphone": true,
+        "games": true,
+    }
+}
+
+console.log(`State for notebooks: ${myObj.objects.notebook}`);
