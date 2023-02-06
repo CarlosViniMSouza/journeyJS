@@ -1,5 +1,5 @@
 git add -A 
-git commit -m "NodeJS File System -> Read Files"
+git commit -m "NodeJS File System -> Delete Files"
 git push -u origin main
 git status
 
