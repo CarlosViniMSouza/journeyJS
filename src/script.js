@@ -12,7 +12,7 @@ function toggleText() {
 
 // JS Modules:
 
-import sum from "../useCases/case07Classes/case26Classes.js";
+// import sum from "../useCases/case07Classes/case26Classes.js";
 
 console.log(`\nThe sum result is: ${sum(1, 5)}\n`);
 
