@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JS DOM Elements </title>
+</head>
+<body>
+    <!-- 1. Finding HTML Element by Id -->
+    <h2 id="intro"> Content Text for change </h2>
+
+    <!-- 2. Finding HTML Elements by Tag Name -->
+    <div id="main-comments">
+        <p> This is a comment for test JS-DOM </p>
+        <p> Other comment for see what happen !! </p>
+    </div>
+
+    <!-- 3. Finding HTML Elements by Class Name -->
+    <div class="main-headers">
+        <h1> This is a header for test JS-DOM </p>
+        <p> An sub-header for see what happen !! </p>
+    </div>
+
+    <script>
+        // 1. Finding HTML Element by Id
+        const element01 = document.getElementById("intro");
+
+        // 2. Finding HTML Elements by Tag Name
+        const element02 = document.getElementById("main-comments");
+
+        const comments = element02.getElementsByTagName("p");
+
+        // 3. Finding HTML Elements by Class Name
+        const element03 = document.getElementsByClassName("main-headers");
+
+    </script>
+</body>
+</html>
