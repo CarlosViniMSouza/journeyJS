@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JS DOM HTML </title>
+</head>
+<body>
+    <h2 id="sub-title"> Welcome to this page! </h2>
+
+    <img style="width: 40%;" id="img01" src="../assets/github-logo.png" >
+
+    <p> The date time is: <a id="datetime"> time </a> </p>
+    <p id="comment01"> This is a new comment! </p>
+
+    <script>
+        // Changing HTML Content
+        document.getElementById("sub-title").innerHTML = "The New HTML Text";
+
+        // Changing the Value of an Attribute
+        document.getElementById("img01").src = "../assets/tumb-video.jpg";
+
+        // Dynamic HTML content
+        document.getElementById("datetime").innerHTML = Date();
+    </script>
+
+    <script>
+        // In JS, 'document.write()' write directly to the HTML output stream
+        document.write('This is a other \'script\' tag ');
+    </script>
+</body>
+</html>
