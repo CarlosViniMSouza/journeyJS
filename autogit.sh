@@ -1,5 +1,5 @@
 git add -A 
-git commit -m "markdown folder -> useCaseOperations.md finished"
+git commit -m "markdown folder -> useCaseMethods.md finished"
 git push -u origin main
 git status
 
