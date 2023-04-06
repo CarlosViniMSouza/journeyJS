@@ -1,5 +1,5 @@
 git add -A 
-git commit -m "markdown folder -> useCase03-Arrays finished"
+git commit -m "markdown folder -> useCase04-Loops.md finished"
 git push -u origin main
 git status
 
