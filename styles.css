@@ -1,0 +1,14 @@
+.container {
+    margin: 0 auto;
+    padding: auto;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background-color: #0d6f88;
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}

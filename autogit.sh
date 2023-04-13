@@ -1,5 +1,5 @@
 git add -A 
-git commit -m "markdown folder -> finished | DOM study -> started"
+git commit -m "improve -> index.html & styles.css"
 git push -u origin main
 git status
 
