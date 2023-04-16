@@ -205,11 +205,7 @@ switch (new Date().getDay()) {
 console.log(`Today is ${day}`);
 ```
 
-<br>
-
 ### Links 
-
-<br>
 
 1. [Arithmetic Operations](https://www.w3schools.com/js/js_arithmetic.asp)
 

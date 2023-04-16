@@ -78,7 +78,7 @@ The syntax for accessing the property of an object is:
 objectName.property  // ex.: person.age
 ```
 
-or
+(other way)
 
 ```js
 objectName["property"]  // ex.: person["age"]
@@ -98,9 +98,7 @@ console.log(teacher);
 
 ### Introduction
 
-JS methods are actions that can be performed on objects!
-
-A `JavaScript method` is a property containing a `function definition`.
+JS methods are actions that can be performed on objects and is a property containing a *function definition*.
 
 | Property	|   Value    |
 |-----------|------------|
@@ -156,17 +154,15 @@ console.log(employeeInfos.createPhrase);
 
 ## Constructors
 
-1. Notes:
+1. It is considered good practice to name constructor functions with an upper-case first letter.
 
-    It is considered good practice to name constructor functions with an upper-case first letter.
+2. Others characteristics:
 
-2. About this:
-
-    In a constructor function this does not have a value. 
+    ° In a constructor function this does not have a value. 
     
-    It is a substitute for the new object.
+    ° It is a substitute for the new object.
 
-    The value of this will become the new object when a new object is created.
+    ° The value of this will become the new object when a new object is created.
 
 ```javascript
 function Person(firstName, lang, age) {

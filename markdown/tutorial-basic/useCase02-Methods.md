@@ -2,11 +2,11 @@
 
 ## Part 01 - String Methods
 
-Exists letious methods for handler Strings with JS.
+There are several methods to manipulate Strings with JS.
 
 See any these methods below for understand better.
 
-### String `length` Method
+### 1. String `length` Method
 
 Basically return the length/size of the string
 
@@ -17,7 +17,9 @@ console.log(`Size of text: ${textExample.length}`);
 // output: Size of text: 12
 ```
 
-### Extracting String Parts using `slice()`
+### 2. Extracting String Parts using `slice()`
+
+Return a substring
 
 ```javascript
 let textExample = "test example";
@@ -27,7 +29,7 @@ console.log(textExample.slice(0, 6));
 // output: test e
 ```
 
-### Replacing String Content using `replace()`
+### 3. Replacing String Content using `replace()`
 
 `replace()` method is case-sensitive!
 
@@ -46,7 +48,7 @@ console.log(newText);
 // output: This text was changed!!
 ```
 
-### Converting to Upper and Lower Case
+### 4. Converting to Upper and Lower Case
 
 This is so simple! you need only write `toLowerCase()` or `toUpperCase()`
 
@@ -141,9 +143,9 @@ console.log(`Rounded Number (toPrecision): ${num.toPrecision(3)}`);
 // output: Rounded Number (toPrecision): 12.2
 ```
 
-### Converting letiables to Numbers
+### Converting text to numbers
 
-There are 3 JavaScript methods that can be used to convert a letiable to a number:
+There are 3 JavaScript methods that can be used to convert a text to a number:
 
 | Method | Description |
 |--------|-------------|
@@ -196,6 +198,8 @@ console.log(`${Number.parseInt(numTest01)}`);
 
 ## Part 04 - Number Properties
 
+This part is more about decorating content
+
 | Property | Description |
 |----------|-------------|
 | EPSILON           | The difference between 1 and the smallest number > 1.
@@ -219,8 +223,6 @@ console.log(`The negative infinity: ${numNegatInf}`);
 ```
 
 ### Links
-
-<br>
 
 1. [JS String Methods](https://www.w3schools.com/js/js_string_methods.asp)
 

@@ -152,6 +152,8 @@ const student = new Student(2024012551, "Carlos Souza", "Software Eng.");
 student.showStudent();
 ```
 
+<br>
+
 ## Static Methods
 
 Static class methods are defined on the class itself.

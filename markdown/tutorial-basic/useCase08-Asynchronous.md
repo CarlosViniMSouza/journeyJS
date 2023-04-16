@@ -2,7 +2,7 @@
 
 ## Callbacks in JavaScript
 
-A callback is a function passed as an argument to another function
+A `callback` is a function passed as an argument to another function
 
 This technique allows a function to call another function
 
@@ -102,7 +102,11 @@ function myTimeFunction() {
         mySchedule.getSeconds()
     ];
 
-    console.log(`${arraySchedule[0]}:${arraySchedule[1]}:${arraySchedule[2]}`);
+    console.log(`
+        ${arraySchedule[0]}:
+        ${arraySchedule[1]}:
+        ${arraySchedule[2]}
+    `);
 }
 ```
 
@@ -165,7 +169,11 @@ const myNewPromise = new Promise((resultOK, resultError) => {
         const theDebit = 2000;
 
         try {
-            return resultOK({ message: 'Returned with sucess!' }) ? (mySold >= theDebit) : resultError({ message: 'Returned with failed' }); 
+            return resultOK(
+                    { message: 'Returned with sucess!' }) ? 
+                    (mySold >= theDebit) : 
+                    resultError({ message: 'Returned with failed' }
+                );
         } catch (err) {
             return { message: err };
         }
@@ -181,13 +189,13 @@ myNewPromise.then(
 
 ## Async Await in JavaScript
 
-### "async and await make promises easier to write"
+### "`async` and `await` make promises easier to write"
 
-1. 'async' makes a function return a Promise
+1. `async` makes a function return a Promise
 
-2. 'await' makes a function wait for a Promise
+2. `await` makes a function wait for a Promise
 
-The keyword 'async' before a function makes the function return a promise:
+The keyword `async` before a function makes the function return a promise:
 
 ```javascript
 function returnMessageer(data) {
@@ -207,9 +215,9 @@ myFunction().then(
 
 ### Await Syntax
 
-The await keyword can only be used inside an async function.
+The `await` keyword can only be used inside an async function.
 
-The await keyword makes the function pause the execution and wait for a resolved promise before it continues:
+The `await` keyword makes the function pause the execution and wait for a resolved promise before it continues:
 
 ```js
 let value = await promise; // Example

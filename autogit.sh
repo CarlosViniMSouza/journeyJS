@@ -1,5 +1,5 @@
 git add -A 
-git commit -m "Building: Web API Forms | Done: Restructuring of the project"
+git commit -m "Improved: markdown/tutorial-basic"
 git push -u origin main
 git status
 

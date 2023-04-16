@@ -133,11 +133,7 @@ while (i <= arrayNames.length) {
 */
 ```
 
-<br>
-
 ### Links
-
-<br>
 
 1. [for Loops](https://www.w3schools.com/js/js_loop_for.asp)
 

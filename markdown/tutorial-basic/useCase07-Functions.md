@@ -107,8 +107,6 @@ person.fullCitizenship.call(personInfos01, "Manaus", "Brazil");
 
 With the `apply()` method, you can write a method that can be used on different objects.
 
-### The JS `apply()` Method
-
 The `apply()` method is similar to the `call()` method.
 
 ### The Difference Between call() and apply()

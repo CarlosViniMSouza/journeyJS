@@ -2,7 +2,7 @@
 
 ## Arrays Methods
 
-### Creating a new Array (Example)
+### 1. Creating a `new Array` (Examples)
 
 Use `new Array()` or `[]` directly to create a new Array!  
 
@@ -22,7 +22,7 @@ console.log(`2° array: ${arrayList02}`);
 // output: 2° array: Carlos,Software Developer,Brazilian,21,1.78
 ```
 
-### Insert & Delete elements
+### 2. Insert & Delete elements
 
 The `pop()` method removes the last element from an array
 
@@ -44,7 +44,7 @@ console.log(`array with push applied: ${arrayList02}`);
 // output: array with push applied: "Carlos","Software Developer",21,Evangelical
 ```
 
-### Methods `shift()` and `unshift()`
+### 3. Methods `shift()` and `unshift()`
 
 The `shift()` method removes the first array element and "shifts" all other elements to a lower index.
 
@@ -64,7 +64,7 @@ console.log(`array with unshift applied: ${arrayList01}`);
 // output: array with unshift applied: "Manga Reader","Software Developer",21,Evangelical
 ```
 
-### Method `delete`
+### 4. Method `delete`
 
 Array elements can be deleted using the JavaScript operator `delete`.
 
@@ -75,7 +75,7 @@ delete arrayList02[arrayList02.length - 1];
 console.log(`Used delete() on arrayList02: ${arrayList02}`);
 ```
 
-### Merging (Concatenating) Arrays
+### 5. Merging (Concatenating) Arrays
 
 The `concat()` method creates a new array by merging (concatenating) existing arrays:
 
@@ -89,6 +89,8 @@ console.log(`The array by concat: ${newArrayConcat}`);
 <br>
 
 ## Sorting Array
+
+A example of sorting array
 
 ```javascript
 fruits = [
@@ -115,7 +117,9 @@ console.log(`Sorted numeric array (inverse):
 
 <br>
 
-### Array Iteration
+## Array Iteration
+
+Exists several ways to iterate arrays
 
 1. `forEach()` -> calls a function once for each array element.
 
@@ -213,7 +217,7 @@ console.log(arrayTestPassed);
 
 <br>
 
-### Sets
+## Sets
 
 A JavaScript *Set* is a collection of unique values
 
@@ -234,37 +238,6 @@ setNumbers.forEach((nums) => {
 // 3. Using values() method:
 
 setNumbers.values();
-```
-
-<br>
-
-### Maps
-
-A Map holds `key-value pairs` where the keys can be any datatype.
-
-```javascript
-// Example 01:
-
-const newMap01 = new Map([
-    ["key1", "value1"], 
-    ["key2", "value2"]
-]);
-
-// Example 02:
-
-const newMap02 = new Map();
-
-newMap02.set("key1", "value1");
-newMap02.set("key2", "value2");
-
-// get() method:
-
-newMap01.get("key1";)
-newMap02.get("key2");
-
-// size() method:
-
-let lengthMap01 = newMap01.size;
 ```
 
 ### Objects Sets
@@ -311,6 +284,35 @@ console.log(mySet.keys());
 ```
 
 <br>
+
+## Maps
+
+A Map holds `key-value pairs` where the keys can be any datatype.
+
+```javascript
+// Example 01:
+
+const newMap01 = new Map([
+    ["key1", "value1"], 
+    ["key2", "value2"]
+]);
+
+// Example 02:
+
+const newMap02 = new Map();
+
+newMap02.set("key1", "value1");
+newMap02.set("key2", "value2");
+
+// get() method:
+
+newMap01.get("key1";)
+newMap02.get("key2");
+
+// size() method:
+
+let lengthMap01 = newMap01.size;
+```
 
 ### Links
 
