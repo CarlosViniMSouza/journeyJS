@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JS API Workers </title>
+</head>
+<body>
+    <p> Count numbers: <output id="result"></output> </p>
+
+    <button onclick="startWorker()"> Start Count </button>
+    <button onclick="stopWorker()"> Stop Count </button>
+
+    <script async defer>
+        const link = "../../src/tutorial-web/script05-web-API-Workers.js";
+        
+        function startWorker() {
+            if (typeof(count) == "undefined") {
+                count = new Worker(link);
+            }
+
+            count.onmessage = function (event) {
+                document.getElementById("result").innerHTML = event.data;
+            }
+        }
+
+        function stopWorker() {
+            count.terminate();
+            count = "undefined";
+        }
+    </script>
+</body>
+</html>
