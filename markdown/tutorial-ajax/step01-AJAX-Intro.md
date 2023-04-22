@@ -1,4 +1,6 @@
-## AJAX Introduction
+# AJAX Introduction
+
+## AJAX Characteristics
 
 AJAX allow the developers do:
 
