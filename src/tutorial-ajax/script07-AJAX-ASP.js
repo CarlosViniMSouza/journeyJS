@@ -4,12 +4,12 @@ function showHint(str) {
         return;
     } else {
         const xmlhttp = new XMLHttpRequest();
-        
+
         xmlhttp.onload = function() {
             document.getElementById("txtHint").innerHTML = this.responseText;
         }
-    
-        xmlhttp.open("GET", "E:/Programacao/journeyJS/src/others/php/gethint.php?q=" + str);
+
+        xmlhttp.open("GET", "E:/Programacao/journeyJS/src/others/asp/gethint.asp?q=" + str);
         xmlhttp.send();
     }
 }
