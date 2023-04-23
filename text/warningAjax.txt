@@ -1,0 +1,1 @@
+Due to the few practical examples of AJAX, I'll only make the markdown summaries of this topic!
