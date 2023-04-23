@@ -1,5 +1,5 @@
 git add -A 
-git commit -m "Next: AJAX ASP Example"
+git commit -m "Next: AJAX Database Example"
 git push -u origin main
 git status
 
