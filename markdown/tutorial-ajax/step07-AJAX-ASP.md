@@ -1,8 +1,10 @@
-# AJAX PHP Example
+# AJAX ASP Example
 
 AJAX is used to create more interactive applications.
 
-## Example Explained
+## AJAX ASP Example
+
+The following example will demonstrate how a web page can communicate with a web server while a user type characters in an input field:
 
 ```html
 <p> Start typing a name in the input field below: </p>
@@ -12,19 +14,19 @@ AJAX is used to create more interactive applications.
     First name: <input type="text" onkeyup="showHint(this.value)">
 </form>
 
-<script async defer>
+<script>
     function showHint(str) {
         if (str.length == 0) {
             document.getElementById("txtHint").innerHTML = "";
             return;
         } else {
             const xmlhttp = new XMLHttpRequest();
-            
+
             xmlhttp.onload = function() {
                 document.getElementById("txtHint").innerHTML = this.responseText;
             }
 
-            xmlhttp.open("GET", "../../src/php/gethint.php?q=" + str);
+            xmlhttp.open("GET", "gethint.asp?q=" + str);
             xmlhttp.send();
         }
     }
@@ -36,16 +38,15 @@ AJAX is used to create more interactive applications.
 2. However, if the input field is not empty, do the following:
 
     ° Create an XMLHttpRequest object
-    
+
     ° Create the function to be executed when the server response is ready
-    
-    ° Send the request off to a PHP file (gethint.php) on the server
-    
-    ° Notice that q parameter is added gethint.php?q="+str
-    
+
+    ° Send the request off to an ASP file (gethint.asp) on the server
+
+    ° Notice that q parameter is added gethint.asp?q="+str
+
     ° The str variable holds the content of the input field
 
-## The PHP File - "gethint.php"
+## The ASP File - "gethint.asp"
 
-[Access the PHP file](https://github.com/CarlosViniMSouza/journeyJS/blob/main/src/others/php/gethint.php)
-
+[Access the ASP file](https://github.com/CarlosViniMSouza/journeyJS/blob/main/src/others/asp/gethint.asp)
