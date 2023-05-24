@@ -1,6 +1,6 @@
 git add -A 
-git commit -m "Next Topic: JSON Object Literals"
+git commit -m "Next Topic: JSON Array Literals"
 git push -u origin main
 git status
 
-# link: https://www.w3schools.com/js/js_json_objects.asp
+# link: https://www.w3schools.com/js/js_json_arrays.asp
