@@ -1,5 +1,5 @@
 git add -A 
-git commit -m "Next Topic: JSON DataTypes"
+git commit -m "Next Topic: JSON.stringify()"
 git push -u origin main
 git status
 
